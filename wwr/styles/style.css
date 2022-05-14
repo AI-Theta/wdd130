@@ -4,20 +4,16 @@
     width: 1600px;
     margin: 0 auto;
 }>
-<nav a>
-<div id="content" {
+nav a {
     text-align: center;
 }
-<#hero-msg h1, #hero-msg h4>
-<div id="content" {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
-<.button-box>
-<div id="content" {
+.button-box {
     text-align: center;
 }
-<main section>
-<div id="content" {
+main section {
     text-align: center;
 }
 #background {
@@ -52,19 +48,19 @@ footer {
     width: 80px;
 }
 nav a {
-    text-align: center;
+    text-align:center;
     color: #fcfbfb;
-    text-decration: none;
+    text-decration:none;
 }
 .book, .join {
-    text-align: center;
+    text-align:center;
     color: #fcfbfb;
-    text-decration: none;
+    text-decration:none;
 }
 footer a {
-    text-align: center; 
+    text-align:center; 
     color: #fcfbfb;
-    text-decration: none;
+    text-decration:none;
 }
     <header>
 . . .
