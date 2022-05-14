@@ -2,8 +2,10 @@
 <body>
 <div id="content" {
     width: 1600px;
-    margin: 0 auto;
 }>
+#content {
+    margin: 0 auto;
+}
 nav a {
     text-align: center;
 }
