@@ -1,5 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+.home-title {
+    font-family: 'UnifrakturCook';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
+
+  .msg h2 {
+    font-family: 'UnifrakturCook';
+    font-size: 2em;
+}
+
 <body>
+body {
+    background-color: #fcfbfb;
+    font-family: 'UnifrakturCook';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 <div id="content" {
     width: 1600px;
 }>
@@ -41,6 +66,7 @@ nav a:hover {
 }
 .msg {
     background-color: #fcfbfb
+    padding: 35px;
 }
 footer {
     background-color: #FFD97D
@@ -48,21 +74,34 @@ footer {
 #hero-img
 .icon {
     width: 80px;
+    padding: 10px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
 nav a {
     text-align:center;
     color: #fcfbfb;
     text-decration:none;
+    padding: 35px;
 }
 .book, .join {
     text-align:center;
     color: #fcfbfb;
     text-decration:none;
+    padding; 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 footer a {
     text-align:center; 
     color: #fcfbfb;
     text-decration:none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
     <header>
 . . .
