@@ -92,10 +92,10 @@ footer {
 }
 #hero-img {
     width: 100%;
+    padding: 10px;
 }
 .icon {
     width: 80px;
-    padding: 10px;
 }
 .card-img {
     border: 10px solid #d9c2a3;
