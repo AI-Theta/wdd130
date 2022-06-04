@@ -31,7 +31,7 @@ header {
 
 footer {
     display: flex;
-    background-color: #080705;
+    background-color: #396E94;
     padding: 32px;
     justify-content: space-around;
     align-items: center;
@@ -79,7 +79,7 @@ footer a {
 }
 
 nav a:hover {
-    background-color: #20620C;
+    background-color: #396E94;
 }
 
 #hero-msg h1, #hero-msg h4 {
