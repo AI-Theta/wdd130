@@ -31,7 +31,7 @@ header {
 
 footer {
     display: flex;
-    background-color: #ffffff;
+    background-color: #080705;
     padding: 32px;
     justify-content: space-around;
     align-items: center;
@@ -107,7 +107,6 @@ main section {
 .msg {
     background-color: #ffffff;
     line-height: 1.5em;
-    margin: 100px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
