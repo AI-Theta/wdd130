@@ -55,3 +55,7 @@ dragon {
     display: grid;
     grid-template: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% / 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%
 }
+
+dragon-box {
+    grid-area: 3 / 3 / 9 / 9
+}
