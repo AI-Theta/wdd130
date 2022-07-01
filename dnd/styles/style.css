@@ -57,6 +57,6 @@ dragon {
 }
 
 dragon-img {
-    margin: 25px 50px 75px 100px;
+    margin: auto;
     grid-area: 3 / 3 / 6 / 6
 }
