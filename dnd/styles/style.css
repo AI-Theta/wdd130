@@ -35,7 +35,7 @@ nav a {
     text-decoration: none;
     justify-self: center;
     align-self: center;
-    color: #ffffff;
+    color: #0A0A0B;
 }
 
 footer a {
@@ -49,4 +49,9 @@ nav a:hover {
 
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+dragon {
+    display: grid;
+    grid-template: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% / 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%
 }
