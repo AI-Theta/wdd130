@@ -57,6 +57,5 @@ dragon {
 }
 
 dragon-img {
-    margin: auto;
-    grid-area: 3 / 3 / 6 / 6
+    box-sizing: border-box;
 }
