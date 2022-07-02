@@ -121,6 +121,11 @@ footer h3 a:hover {
     font-size: 2em;
 }
 
+.banner-msg {
+    grid-column: 1/4;
+    grid-row: 1/2;
+ }
+
 .msg {
     grid-column: 2/4;
     grid-row: 2/4;
