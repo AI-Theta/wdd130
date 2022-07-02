@@ -137,7 +137,8 @@ footer h3 a:hover {
   }
 
 .dice-img {
-    grid-column: 4 / 6;
+    grid-column-start: 4;
+    grid-column-end: 6;
     grid-row: 2;
     width: 90%;
     padding: 10px;
