@@ -17,6 +17,18 @@ nav {
     justify-content: space-around;
 }
 
+nav a {
+    font-size: 2em;
+    text-decoration: none;
+    justify-self: center;
+    align-self: center;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #396E94;
+}
+
 .logo, .icon {
     width: 80px
 }
@@ -63,16 +75,10 @@ p {
     width: 100%;
 }
 
-nav a {
-    font-size: 2em;
-    text-decoration: none;
-    justify-self: center;
-    align-self: center;
-    color: #ffffff;
-}
-
-nav a:hover {
-    background-color: #396E94;
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -113,12 +119,6 @@ footer h3 a:hover {
 
 .home-title {
     font-size: 2em;
-}
-
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
 }
 
 .dice-img {
