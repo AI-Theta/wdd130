@@ -64,4 +64,5 @@ dragon-img {
     width: 1500px;
     aspect-ratio: auto 1500 / 800;
     height: 800px;
+    object-fit: contain;
 }
