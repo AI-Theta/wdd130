@@ -146,6 +146,14 @@ footer h3 a:hover {
     margin-top: 10px;
 }
 
+.book, {
+    background-color: #d9c2a3;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 28px;
+    border-radius: 5px;
+}
+
   footer {
     display: flex;
     background-color: #396E94;
