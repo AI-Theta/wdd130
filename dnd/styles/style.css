@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #909590;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ main section {
 }
 
 .msg {
-    background-color: #ffffff;
+    background-color: #909590;
     line-height: 1.5em;
     grid-column: 6/10;
     grid-row: 6/7;
