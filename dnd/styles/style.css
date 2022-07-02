@@ -112,9 +112,9 @@ footer h3 a:hover {
 }
 
 .home-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
 }
 
 .home-title {
@@ -129,6 +129,14 @@ footer h3 a:hover {
     border: 1px solid #ccc;
     box-shadow: 5px 5px 5px #999;
     margin-top: 10px;
+}
+
+p {
+    padding: 1em;
+    line-height: 1.5em;
+    margin-top: -0.5em;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .msg {
