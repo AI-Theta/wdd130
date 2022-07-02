@@ -58,4 +58,10 @@ dragon {
 
 dragon-img {
     box-sizing: border-box;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    width: 1500px;
+    aspect-ratio: auto 1500 / 800;
+    height: 800px;
 }
