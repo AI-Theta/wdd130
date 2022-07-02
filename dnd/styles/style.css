@@ -131,17 +131,14 @@ footer h3 a:hover {
     margin-top: 10px;
 }
 
-p {
+.msg {
+    grid-column: 2/4;
+    grid-row: 2/4;
     padding: 1em;
     line-height: 1.5em;
     margin-top: -0.5em;
     font-size: 1.5em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.msg {
-    grid-column: 2/4;
-    grid-row: 2/4;
+    font-family: UnifrakturCookf;
   }
 
   footer {
