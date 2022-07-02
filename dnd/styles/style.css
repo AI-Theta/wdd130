@@ -137,3 +137,8 @@ footer h3 a:hover {
     box-shadow: 5px 5px 5px #999;
     margin-top: 10px;
 }
+
+.msg {
+    grid-column: 2/4;
+    grid-row: 2/4;
+  }
