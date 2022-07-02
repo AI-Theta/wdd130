@@ -51,11 +51,17 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 
-dragon {
-    display: grid;
-    grid-template: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% / 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%
+dragoon-img {
+        width: 100%;
 }
 
-dragon-img {
-    width: 100%;
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: #d9c2a3;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
