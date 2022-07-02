@@ -104,6 +104,12 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 
+.home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1em;
+}
+
 .home-title {
     font-size: 2em;
 }
