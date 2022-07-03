@@ -22,11 +22,12 @@ nav a {
     text-decoration: none;
     justify-self: center;
     align-self: center;
-    color: #ffffff;
+    color: #AB0D1F;
+    background-color: #0A0A0B;
 }
 
 nav a:hover {
-    background-color: #396E94;
+    background-color: #FFD97D;
 }
 
 .logo, .icon {
@@ -43,6 +44,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     z-index: 1;
+    background-color: #0A0A0B;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,10 +56,10 @@ h2 {
 }
 
 #dragon {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 100px;
+    margin-top: 0px;
     z-index: 0;
 }
 
@@ -83,7 +85,7 @@ p {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    color: #d9c2a3;
+    color: #AB0D1F;
 }
 
 main section {
@@ -114,7 +116,7 @@ footer h3 a:hover {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 10% 60% 20%;
     grid-gap: 1em;
 }
 
@@ -124,24 +126,35 @@ footer h3 a:hover {
 
 .banner-msg {
     grid-column: 1/4;
-    grid-row: 1/2;
+    grid-row: 1;
+    font-size: 144%;
  }
 
 .msg {
-    grid-column: 2/4;
+    grid-column: 1/4;
     grid-row: 2/4;
     padding: 1em;
+    width: 80%;
+    height: 90%;
     line-height: 1.5em;
     margin-top: -0.5em;
     font-size: 1.5em;
     font-family: UnifrakturCookf;
   }
+.dice-card {
+    margin:  0;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    height: 150px;
+    width: 100%;
+}
 
 .dice-img {
-    grid-column: 3/6;
+    grid-column: 2/6;
     grid-row: 2/4;
-    width: 90%;
-    padding: 10px;
+    width: 197%;
+    height: 340%;
+    padding: 6px;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 5px #999;
     margin-top: 10px;
@@ -150,7 +163,7 @@ footer h3 a:hover {
 .book {
     grid-column: 1/3;
     grid-row: 3;
-    background-color: #d9c2a3;
+    background-color: #FFD97D;
     text-decoration: none;
     font-size: 18px;
     padding: 12px 28px;
@@ -159,7 +172,7 @@ footer h3 a:hover {
 
   footer {
     display: flex;
-    background-color: #396E94;
+    background-color: #FFD97D;
     padding: 32px;
     justify-content: space-around;
     align-items: center;
@@ -168,4 +181,8 @@ footer h3 a:hover {
 footer a {
     text-decoration: none;
     margin-right: 12px;
+}
+
+h3 {
+    color:#AB0D1F;
 }
