@@ -30,8 +30,6 @@ nav a:hover {
     background-color: #FFD97D;
 }
 
-* {box-sizing: border-box;}
-
 /* Style the navbar */
 .topnav {
   overflow: hidden;
@@ -221,4 +219,28 @@ footer a {
 
 h3 {
     color:#AB0D1F;
+}
+
+#products-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 60% 20%;
+}
+
+#purple {
+    grid-row: 1/2
+}
+
+#puprle-img {
+    width:100%;
+    height:100%;
+}
+
+#map {
+    grid-row: 2/3;
+}
+
+#map-img {
+    width:100%;
+    height:100%;
 }
