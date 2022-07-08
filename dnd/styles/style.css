@@ -250,7 +250,7 @@ h3 {
     margin-top: 63%;
 }
 
-#dice-button {
+.dice-button {
     background-color: #FFD97D;
     text-decoration: none;
     font-size: 18px;
@@ -276,7 +276,7 @@ h3 {
     height:100%;
 }
 
-#map-button {
+.map-button {
 background-color: #FFD97D;
 text-decoration: none;
 font-size: 18px;
