@@ -285,6 +285,10 @@ border-radius: 5px;
 }
 
  /*Contact Us Page Start*/
+ .contactus-grid {
+    display:grid
+ }
+
  form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -362,4 +366,9 @@ border-radius: 5px;
   }
   .moveDown {
       margin-top: 3em;
+  }
+
+  .castle-img {
+    grid-row: 3/4;
+    grid-column: 1/3;
   }
