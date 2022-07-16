@@ -285,11 +285,20 @@ border-radius: 5px;
 }
 
  /*Contact Us Page Start*/
- .contactus-grid {
-    display:grid
+ #contactus-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 60% 20%;
+    grid-gap: 1em;
+    background-color: #909590
  }
 
- form {
+ .form {
+    grid-row: 2/4;
+    grid-column: 2/3;
+ }
+
+form {
     /* Center the form on the page */
     margin: 0 auto;
     width: 400px;
@@ -368,7 +377,26 @@ border-radius: 5px;
       margin-top: 3em;
   }
 
-  .castle-img {
-    grid-row: 3/4;
-    grid-column: 1/3;
+  #castle-img {
+    grid-row: 2/4;
+    grid-column: 1/2;
+  }
+
+  #castle {
+    width: 100%;
+    height: 100%;
+  }
+
+  #forest-img {
+    grid-row: 2/4;
+    grid-column: 3/4;
+  }
+
+  #forest {
+    width:100%;
+    height: 100%;
+  }
+
+  body {
+    background: #909590
   }
